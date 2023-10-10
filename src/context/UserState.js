@@ -2,7 +2,7 @@ import UserContext from './userContext';
 import {useState} from 'react';
 
 const UserState=(props)=>{
-    const host="http://localhost:5000";
+    const host="https://hotel-room-management-backend.vercel.app";
     const [users,setUsers] = useState([]);
 
     // Get all the users
